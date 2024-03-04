@@ -45,7 +45,7 @@ and push to your github repository.
 .  
   * $W(n)=49W(n/25)+n^{3/2}\log n$
 .  
-.  $\O(n^{3/2}\log n)\$
+.  $O(n^{3/2}\log n)$
 .  
 .  
 .  
@@ -91,7 +91,7 @@ and push to your github repository.
           running time: O(2^n)
 
     3) C: T(n) = 9T(n\3) + O(n^2)
-          running time: $\O(n^2*logn)\$
+          running time: $O(n^2*logn)$
 
     For me, i will choose C because it offers a polynomial running time with a smaller 
     exponent compare to A and B
