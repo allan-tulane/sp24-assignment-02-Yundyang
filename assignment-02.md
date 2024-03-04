@@ -51,19 +51,19 @@ and push to your github repository.
 .  
   * $W(n)=W(n-1)+2$
 .  
-.  $\O(n)\$
+    O(n)
 .  
 .  
 .  
   * $W(n)= W(n-1)+n^c$, with $c\geq 1$
 .  
-.  $\o(n^c)\$
+    o(n^c)
 .  
 .  
 .  
   * $W(n)=W(\sqrt{n})+1$
 
-    $\O(logn)\$
+    O(logn)
 
 
 2. Suppose that for a given task you are choosing between the following three algorithms:
