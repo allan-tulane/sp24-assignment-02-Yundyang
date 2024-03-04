@@ -84,6 +84,18 @@ and push to your github repository.
     What are the asymptotic running times of each of these algorithms?
     Which algorithm would you choose?
 
+    1) A: T(n) = 5*T(n\2) + O(n)
+          running time：$\O(n^{log2_5})\$
+       
+    2) B: T(n) = 2T(n-1) + O(1)
+          running time: O(2^n)
+
+    3) C: T(n) = 9T(n\3) + O(n^2)
+          running time: $\O(n^2*logn)\$
+
+    For me, i will choose C because it offers a polynomial running time with a smaller 
+    exponent compare to A and B
+
 
 3. Now that you have some practice solving recurrences, let's work on
   implementing some algorithms. In lecture we discussed a divide and
