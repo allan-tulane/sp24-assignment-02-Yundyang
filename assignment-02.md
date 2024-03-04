@@ -39,29 +39,31 @@ and push to your github repository.
 .  
   * $W(n)=8W(n/2)+n^3$
 .  
-.  
+.  $\Theta(n^3)\$
 .  
 .  
 .  
   * $W(n)=49W(n/25)+n^{3/2}\log n$
 .  
-.  
+.  $\O(n^{3/2}\log n)\$
 .  
 .  
 .  
   * $W(n)=W(n-1)+2$
 .  
-.  
+.  $\O(n)\$
 .  
 .  
 .  
   * $W(n)= W(n-1)+n^c$, with $c\geq 1$
 .  
-.  
+.  $\o(n^c)\$
 .  
 .  
 .  
   * $W(n)=W(\sqrt{n})+1$
+
+    $\O(logn)\$
 
 
 2. Suppose that for a given task you are choosing between the following three algorithms:
