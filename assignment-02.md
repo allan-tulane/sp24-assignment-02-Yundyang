@@ -85,7 +85,7 @@ and push to your github repository.
     Which algorithm would you choose?
 
     1) A: T(n) = 5*T(n\2) + O(n)
-          running time：$\O(n^{log2_5})\$
+          running time：$\O(n^{log_2 5})\$
        
     2) B: T(n) = 2T(n-1) + O(1)
           running time: O(2^n)
