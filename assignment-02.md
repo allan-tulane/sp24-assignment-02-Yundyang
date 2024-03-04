@@ -14,26 +14,26 @@ and push to your github repository.
   * $W(n)=2W(n/3)+1$
 
 
-.  \( theta(n^{\log_3 2}) \)
+.  $\Theta(n^{log_3 2})\$
 
 .  
 .  
 .  
   * $W(n)=5W(n/4)+n$
 .  
-.  
+.  $\Theta(n^{log_4 5})\$
 .  
 .  
 .  
   * $W(n)=7W(n/7)+n$
 .  
-.  
+.  $\Theta(n*logn)\$
 .  
 .  
 .  
   * $W(n)=9W(n/3)+n^2$
 .  
-.  
+.  $\Theta(n^2)\$
 .  
 .  
 .  
